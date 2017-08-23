@@ -1,0 +1,19 @@
+{
+    "name": "weather-app",
+    "version": "1.0.0",
+    "description": "this is a nodejs learning project for me, with console app. you can start this app with 'node app.js -a address' . The address is dynamic you can write your address, city, country or anywhere also you can use a zipcode.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js"
+    },
+    "author": "Enes Malik Sayan",
+    "license": "ISC",
+    "dependencies": {
+        "request": "^2.81.0",
+        "yargs": "^8.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
